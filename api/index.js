@@ -32,7 +32,7 @@ app.use((req, res, next) => {
 });
 
 
-app.listen(3000, () => {
+app.listen(10000, () => {
   console.log("server is running on port 3000");
 });
 
