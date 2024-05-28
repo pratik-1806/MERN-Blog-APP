@@ -25,16 +25,16 @@ mongoose
 const app = express();
 
 app.use(cors({
-  origin: 'https://mern-blog-app-0dcs.onrender.com'  // Replace with your actual frontend origin
+  origin: 'https://mern-blog-app-0dcs.onrender.com'  
 }));
 
 app.use(express.json())
 app.use(cookieParser());
-app.use((req, res, next) => {
-  res.setHeader('Cross-Origin-Opener-Policy', 'same-origin');
-  res.setHeader('Cross-Origin-Embedder-Policy', 'require-corp');
-  next();
-});
+// app.use((req, res, next) => {
+//   res.setHeader('Cross-Origin-Opener-Policy', 'same-origin');
+//   res.setHeader('Cross-Origin-Embedder-Policy', 'require-corp');
+//   next();
+// });
 
 
 app.listen(10000, () => {
