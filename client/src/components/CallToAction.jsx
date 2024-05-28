@@ -13,7 +13,7 @@ export default function CallToAction() {
             </Button>
         </div>
         <div className="p-7 flex-1 ">
-            <img crossorigin="anonymous" src="https://www.macobserver.com/wp-content/uploads/2019/05/workfeatured-GitHub-2.png" className="rounded-md"/>
+            <img  src="https://firebasestorage.googleapis.com/v0/b/blogapp-c196d.appspot.com/o/github.jpg?alt=media&token=b8d6c6f5-4501-4f93-9ac4-4d555c5ee221" className="rounded-md"/>
         </div>
     </div>
   )
