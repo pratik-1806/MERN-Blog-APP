@@ -24,7 +24,9 @@ mongoose
 
 const app = express();
 
-app.use(cors())
+app.use(cors({
+  origin: 'https://mern-blog-app-0dcs.onrender.com'  // Replace with your actual frontend origin
+}));
 
 app.use(express.json())
 app.use(cookieParser());
